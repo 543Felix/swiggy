@@ -1,0 +1,244 @@
+.html,body{
+    margin: 0%;
+}
+.frontpage{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0px;
+    height: 500px;
+}
+.firstpart{
+    margin-top: 60px;
+    margin-left: 30px;
+}
+.logo{
+    margin-left: 20px;
+    height: 60px;
+    width: auto;
+}
+.banner{
+    height: 500px;
+    width:100%;
+}
+.login{
+    float: right;
+    height: 15px;
+    width: 15%;
+    text-decoration: none;
+    text-align: center;
+    padding-left: 20px;
+    padding-top: 20px;
+    color: black;
+    cursor: pointer;
+}
+.login:hover{
+    color: #fc8019;
+}
+.signup{
+    float: right;
+    height: 15px;
+    width: 15%;
+    text-decoration: none;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    background: black;
+    margin-right: 25px;
+    font-size: 20px;
+}
+.head{
+    margin-bottom: 0px;
+    margin-top: 50px;
+    color: black;
+}
+.subhead{
+    margin: 0px;
+    color: gray;
+}
+.locationinput{
+    width: 70%;
+    height: 25px;
+    color: gray;
+    margin: 40px auto auto 0px;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.location{
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    top: 279px;
+    left: 400px;
+    padding: 15px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: lightgray;
+}
+.findfood{
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 0 2rem;
+    letter-spacing: 0;
+    color: white;
+    background-color: #fc8019;
+    line-height: 50px;
+}
+.cities{
+    font-size: 15px;
+    color: #a9abb2;
+    margin: 30px 0 10px 0;
+    letter-spacing: -.2px;
+    text-transform: uppercase;
+}
+.citylist{
+    width: 570px;
+    list-style: none;
+    margin-top: 20px;
+}
+.list{
+    font-weight: 600;
+    font-size: 16px;
+    margin-right: 10px;
+    color: #686b78;
+    line-height: 1.5;
+    letter-spacing: -.3px;
+    text-decoration: none;
+}
+.list:nth-child(even){
+    color: lightslategray;
+}
+.secondpage{
+    width: 1350px;
+    height: 375px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #2b1e16;
+    font-size: 16px;
+    font-weight: 500px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: 200px;
+}
+.text-head{
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+.text-details{
+    margin-top: 0px;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.thirdpage{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.boldtext{
+    margin-top: 500px;
+    margin-left: 30px;
+}
+.heading{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+    color: #282c3f;
+}
+.subtext3{
+    font-size: 20px;
+    font-weight: 300;
+    margin-left: 30px;
+    margin-top: 10px;
+    color: #7e94c3;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.imgbutton{
+    margin-top: 40px;
+    margin-left: 20px;
+    height: 60px;
+    cursor: pointer;
+}
+.phone1{ 
+    padding-left: 100px;
+  margin-top: 378px;
+   width: 384px;
+   height: 489px;
+}
+.phone2{
+    width: 384px;
+   height: 489px;
+   margin-top: 450px;
+}
+.row{
+   display: flex;
+   justify-content: center;
+   justify-content: space-around;
+   color: white;
+   background-color: black;
+   padding: 44px;
+}
+.row h2{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600px;
+    color: #3a3434;
+    padding-bottom: 15px;
+}
+.row a{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    line-height: 35px; 
+}
+.row a.spacing{
+    line-height: 0;
+}
+.row2{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+.white-logo{
+   width: 142px;
+   margin-top: 20px;
+   margin-left: 60px;
+   padding-bottom: 30px;
+   cursor: pointer;
+}
+.row2 h2{
+    color: white;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.icons img{
+    margin-top: 30px;
+    margin-right: 30px;
+    width: 34px;
+    height: 34px;
+    cursor: pointer;
+}
+.imgbutton2{
+    cursor: pointer;
+}
